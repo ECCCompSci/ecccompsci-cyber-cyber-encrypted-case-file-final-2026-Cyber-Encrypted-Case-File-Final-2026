@@ -1,0 +1,23 @@
+# File System Metadata — Suspect Device
+# Device: SanDisk USB Drive (SN: 4F2A-9B11)
+# Recovered: April 19, 2026 at 8:15 AM by IT Security
+# OS reported filesystem: FAT32
+
+--- FILE LISTING ---
+
+Filename                     | Created              | Last Modified        | Last Accessed        | Size
+-----------------------------|----------------------|----------------------|----------------------|----------
+note_to_self.txt             | 2026-04-18 23:44:00  | 2026-04-18 23:44:33  | 2026-04-19 08:15:01  | 312 bytes
+ALL_CLIENT_DATA.zip          | 2026-04-18 23:50:17  | 2026-04-18 23:50:17  | 2026-04-19 08:15:01  | 48.7 MB
+FINANCIAL_MASTER.xlsx        | 2026-04-18 23:50:44  | 2026-04-18 23:50:44  | 2026-04-19 08:15:01  | 12.1 MB
+SSN_DATABASE.csv             | 2026-04-18 23:51:02  | 2026-04-18 23:51:02  | 2026-04-19 08:15:01  | 3.4 MB
+personal_photos/             | 2025-11-03 14:20:00  | 2025-11-03 14:20:00  | 2026-04-19 08:15:01  | (folder)
+vacation_budget.xlsx         | 2026-01-05 09:11:00  | 2026-01-05 09:11:00  | 2026-03-22 11:00:00  | 24 KB
+
+--- END FILE LISTING ---
+
+NOTES FOR ANALYST:
+- Pay close attention to the Created timestamps on the suspicious files.
+- Cross-reference these timestamps with the server log and email header.
+- The Last Accessed timestamp on all files is the same — why might that be?
+- FAT32 does not store timezone data. All timestamps are in local system time (Central Time assumed).

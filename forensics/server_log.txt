@@ -1,0 +1,22 @@
+# Nexus Financial Services — Web Server Access Log
+# Server: NFS-PROD-01
+# Log Date: April 18, 2026
+# Format: [TIMESTAMP] USER IP_ADDRESS ACTION FILE HTTP_STATUS
+
+[2026-04-18 08:02:11] msmith 192.168.1.45 GET /clients/overview.html 200
+[2026-04-18 08:15:33] msmith 192.168.1.45 GET /clients/records/Q1_report.pdf 200
+[2026-04-18 09:40:07] agarcia 192.168.1.78 GET /internal/policy.html 200
+[2026-04-18 10:12:55] agarcia 192.168.1.78 POST /internal/forms/submit.php 200
+[2026-04-18 12:01:44] jdoe92 192.168.1.102 GET /clients/overview.html 200
+[2026-04-18 12:03:18] jdoe92 192.168.1.102 GET /clients/records/Q1_report.pdf 200
+[2026-04-18 12:04:05] jdoe92 192.168.1.102 GET /clients/records/Q2_report.pdf 200
+[2026-04-18 17:58:22] msmith 192.168.1.45 GET /logout 200
+[2026-04-18 18:03:41] agarcia 192.168.1.78 GET /logout 200
+[2026-04-18 23:47:02] jdoe92 10.45.88.201 GET /clients/records/ 200
+[2026-04-18 23:47:38] jdoe92 10.45.88.201 GET /clients/records/ALL_CLIENT_DATA.zip 200
+[2026-04-18 23:48:15] jdoe92 10.45.88.201 GET /clients/records/FINANCIAL_MASTER.xlsx 200
+[2026-04-18 23:49:01] jdoe92 10.45.88.201 GET /clients/records/SSN_DATABASE.csv 200
+[2026-04-18 23:51:44] jdoe92 10.45.88.201 POST /admin/export.php 200
+[2026-04-18 23:52:30] jdoe92 10.45.88.201 GET /logout 200
+
+# END OF LOG

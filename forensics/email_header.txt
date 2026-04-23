@@ -1,0 +1,32 @@
+# Suspicious Email — Header Analysis
+# Recovered from: jdoe92 personal Gmail account (provided via warrant)
+# Email was SENT on April 18, 2026 at 11:32 PM
+
+--- BEGIN EMAIL HEADER ---
+
+Delivered-To: receiver_unknown@protonmail.com
+Received: from mail-pl1-f201.google.com (mail-pl1-f201.google.com [209.85.214.201])
+        by mx.protonmail.com with SMTP
+        for <receiver_unknown@protonmail.com>;
+        Sat, 18 Apr 2026 23:32:07 +0000 (UTC)
+Received: by mail-pl1-f201.google.com with SMTP
+        for <receiver_unknown@protonmail.com>;
+        Sat, 18 Apr 2026 23:32:05 -0000
+X-Originating-IP: 10.45.88.201
+From: jdoe92.personal@gmail.com
+To: receiver_unknown@protonmail.com
+Subject: " "
+(Subject is blank)
+Date: Sat, 18 Apr 2026 23:32:00 -0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+
+Message Body: (encrypted attachment only — see crypto folder)
+
+--- END EMAIL HEADER ---
+
+NOTES FOR ANALYST:
+- The X-Originating-IP tells you where the email was sent FROM.
+- The recipient used ProtonMail — an encrypted email service often used for anonymity.
+- The subject line is intentionally blank.
+- The timestamp is critical — compare it to the server log.

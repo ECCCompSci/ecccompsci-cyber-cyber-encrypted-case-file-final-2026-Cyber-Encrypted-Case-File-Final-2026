@@ -1,0 +1,18 @@
+INTERCEPTED MESSAGE #2
+Date Found: April 19, 2026
+Source: Drafts folder of personal email account
+Filename: (unsent draft)
+
+--- BEGIN ENCRYPTED MESSAGE ---
+
+LMMXS: IMD TGQC GH IMD SQDKCP QCDMZBP.
+IMD QCAMLB ZKRC GH GMZ FMZZ HA ADZ PGBC HJJ.
+XCCP XJJ RCLCRJC YJJKCP GFZ.
+
+--- END ENCRYPTED MESSAGE ---
+
+NOTES FOR ANALYST:
+- This message uses a different cipher than Message #1.
+- The sender appears to have used a keyword-based approach.
+- The keyword may be related to the case itself.
+- Hint: Try the keyword NEXUS.

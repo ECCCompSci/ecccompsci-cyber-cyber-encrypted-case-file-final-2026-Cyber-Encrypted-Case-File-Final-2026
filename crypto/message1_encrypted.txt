@@ -1,0 +1,17 @@
+INTERCEPTED MESSAGE #1
+Date Found: April 19, 2026
+Source: USB drive, root directory
+Filename: note_to_self.txt
+
+--- BEGIN ENCRYPTED MESSAGE ---
+
+WKH ILOHV DUH KLGGHQ LQ WKH VHUYHU EDFNXS IROGHU.
+PHHW DW PLGQLJKW. EULQJ WKH GULYH.
+GR QRW FRQWDFW PH XQWLO WKHQ.
+
+--- END ENCRYPTED MESSAGE ---
+
+NOTES FOR ANALYST:
+- This message was found unencrypted on the outside but the content itself is enciphered.
+- Consider classic substitution methods used before modern computers.
+- Frequency analysis may be helpful.
